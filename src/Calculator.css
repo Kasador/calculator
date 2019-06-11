@@ -5,9 +5,11 @@
 }
 .display {
     width: 200px;
-    margin: 5px 10px;
-    padding: 5px 10px;
+    padding: 20px 25px;
     border: 2px solid #222;
     text-align: right;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    background-color: #433337;
+    color: white;
+    border: 2px solid lightcoral;
 }

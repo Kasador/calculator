@@ -1,7 +1,8 @@
 .buttonsMain {
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 250px;
+    border: 2px solid lightcoral;
 }
 .buttonsMain .buttonsFlex {
     display: flex;
@@ -10,12 +11,27 @@
     min-width: 220px;
 }
 #clear {
-    width: 75%;
     font-size: 1.5rem;
-    padding: 5px 10px;
+    padding: 15px 64px;
 }
 .calculations {
-    width: 25%;
+    width: 70px;
     font-size: 1.3rem;
-    padding: 5px 10px;
+    padding: 15px 20px;
+    background-color: #F2274F;
+    color: white;
+}
+.numbers {
+    width: 60px;
+    padding: 5px 20px;
+    font-size: 1.5rem;
+}
+.zero {
+    width: 120px;
+}
+button {
+    border-color: lightcoral;
+}
+button:focus {
+    outline: none;
 }

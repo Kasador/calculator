@@ -6,7 +6,7 @@ class Calculator extends Component {
     render() {
         return (
             <div className="calculatorMain">
-                <h1>display, will make soon</h1>
+                <span className="display">0</span>
                 <Buttons />
             </div>
         );

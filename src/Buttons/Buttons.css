@@ -1,8 +1,21 @@
 .buttonsMain {
     display: flex;
     flex-direction: column;
+    width: 200px;
 }
 .buttonsMain .buttonsFlex {
     display: flex;
-    
+}
+.top {
+    min-width: 220px;
+}
+#clear {
+    width: 75%;
+    font-size: 1.5rem;
+    padding: 5px 10px;
+}
+.calculations {
+    width: 25%;
+    font-size: 1.3rem;
+    padding: 5px 10px;
 }

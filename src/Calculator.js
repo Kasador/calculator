@@ -13,7 +13,7 @@ class Calculator extends Component {
 
         return (
             <div className="calculatorMain">
-                <h1 style={styles}>My Simple Calculator Made With React</h1>
+                <h1 style={styles}>Calculator Made With React</h1>
                 <span className="display">0</span>
                 <Buttons />
             </div>

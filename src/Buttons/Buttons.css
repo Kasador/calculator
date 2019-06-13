@@ -31,6 +31,7 @@
 }
 button {
     border-color: lightcoral;
+    cursor: pointer;
 }
 button:focus {
     outline: none;

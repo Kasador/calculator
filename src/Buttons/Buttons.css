@@ -13,6 +13,11 @@
 #clear {
     font-size: 1.5rem;
     padding: 15px 64px;
+
+    transition: all .1s;
+}
+#clear:hover {
+    background-color: #FDF9F3;
 }
 .calculations {
     width: 70px;
@@ -20,11 +25,21 @@
     padding: 15px 20px;
     background-color: #F2274F;
     color: white;
+
+    transition: all .1s;
+}
+.calculations:hover {
+    background-color: #F33B61;
 }
 .numbers {
     width: 60px;
     padding: 5px 20px;
     font-size: 1.5rem;
+
+    transition: all .1s;
+}
+.numbers:hover {
+    background-color: #FDF9F3;
 }
 .zero {
     width: 120px;

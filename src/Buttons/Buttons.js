@@ -28,7 +28,7 @@ class Buttons extends Component {
             <div className="buttonsMain">
                 {/* top */}
                 <div className="top buttonsFlex">
-                    <button id="clear">clear</button>
+                    <button id="clear" onClick={this.props.clear}>clear</button>
                     <button className="calculations">&#xf7;</button>
                 </div>
                 {/* mid 1 */}

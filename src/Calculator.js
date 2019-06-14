@@ -7,11 +7,13 @@ class Calculator extends Component {
         super(props);
 
         this.state = {
-            display: 0
+            display: 4
         }
 
         this.calculate = this.calculate.bind(this);
+        this.clear = this.clear.bind(this);
     }
+    // calcuate function
     calculate(num1, num2) {
         let firstNumber = num1,
             secondNumber = num2,
@@ -19,6 +21,12 @@ class Calculator extends Component {
 
         this.setState({
             display: this.state.display = total
+        });
+    }
+    // clear function
+    clear() {
+        this.setState({
+            display: this.state.display = 0
         });
     }
 
@@ -34,7 +42,7 @@ class Calculator extends Component {
             <div className="calculatorMain">
                 <h1 style={styles}>Calculator Made With React</h1>
                 <span className="display">{this.state.display}</span>
-                <Buttons />
+                <Buttons clear={this.clear} />
             </div>
         );
     }

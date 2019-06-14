@@ -16,7 +16,7 @@
 
     transition: all .1s;
 }
-#clear:hover {
+#clear:active {
     background-color: #FDF9F3;
 }
 .calculations {
@@ -28,7 +28,7 @@
 
     transition: all .1s;
 }
-.calculations:hover {
+.calculations:active {
     background-color: #F33B61;
 }
 .numbers {
@@ -38,7 +38,7 @@
 
     transition: all .1s;
 }
-.numbers:hover {
+.numbers:active {
     background-color: #FDF9F3;
 }
 .zero {
